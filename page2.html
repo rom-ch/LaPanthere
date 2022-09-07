@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="description"
-			content="La Panthère est une agence de Web Design située à Lyon. Le design de votre site web est important, nous vous aidons à devenir attractifs et visibles sur Internet"
-		/>
+		<meta charset="UTF-8" />
+		<meta name="description" content="" />
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -34,7 +31,7 @@
 							<a class="navbar-brand" href="index.html"
 								><img
 									src="img/agence-la-panthere-monochrome.svg"
-									alt="atlanta web design logo"
+									alt="Logo Agence de web design La Panthère"
 									height="40"
 									loading="lazy"
 							/></a>
@@ -55,9 +52,10 @@
 								<li>
 									<a href="index.html">Accueil</a>
 								</li>
-								<li></li>
+								<!-- li en trop -->
+								<!-- <li></li> -->
 								<li>
-									<a href="page2.html">page2 &gt;</a>
+									<a href="contact.html">Contacts</a>
 								</li>
 							</ul>
 						</div>
@@ -101,11 +99,11 @@
 								data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
 							>
 								<div class="form-group">
-									<label> Nom </label>
+									<label for="name"> Nom </label>
 									<input id="name" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label> Adresse email </label>
+									<label for="email"> Adresse email </label>
 									<input
 										id="email"
 										class="form-control"
@@ -114,16 +112,18 @@
 									/>
 								</div>
 								<div class="form-group">
-									<label> Comment nous avez-vous connu ? </label>
+									<label for="input_504">
+										Comment nous avez-vous connu ?
+									</label>
 									<input
 										class="form-control"
-										type="email"
+										type="text"
 										required
 										id="input_504"
 									/>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="message">
 										Brief de votre projet (Ajoutez autant de détails que
 										nécessaire)<br /> </label
 									><textarea
@@ -170,28 +170,28 @@
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"
+										<a class="social" href="https://twitter.com/"
 											><span class="fa fa-twitter icon-md"></span
 										></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"
+										<a class="social" href="https://www.facebook.com/"
 											><span class="fa fa-facebook icon-md"></span
 										></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"
+										<a class="social" href="https://dribbble.com/"
 											><span class="fa fa-dribbble icon-md"></span
 										></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"
+										<a class="social" href="https://www.instagram.com/"
 											><span class="fa fa-instagram icon-md"></span
 										></a>
 									</div>
@@ -205,10 +205,12 @@
 		</div>
 		<!-- Principal conteneur END -->
 
-		<script src="./js/jquery-2.1.0.min.js"></script>
-		<script src="./js/bootstrap.min.js"></script>
-		<script src="./js/blocs.min.js"></script>
-		<script src="./js/jqBootstrapValidation.js"></script>
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/jquery.touchSwipe.js"></script>
+		<script src="./js/gmaps.js"></script>
 		<script src="./js/formHandler.js"></script>
+		<script src="./js/jqBootstrapValidation.js"></script>
 	</body>
 </html>
