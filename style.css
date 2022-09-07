@@ -10,7 +10,7 @@ body {
 a,
 button {
 	transition: all 0.3s ease-in-out;
-	outline: none !important;
+	/* outline: none !important; */
 }
 
 a:hover {
@@ -460,9 +460,9 @@ nav .caret {
 	background: rgba(0, 0, 0, 0.3);
 }
 
-button {
+/* button {
 	outline: none !important;
-}
+} */
 
 .btn-rd {
 	border-radius: 40px;
